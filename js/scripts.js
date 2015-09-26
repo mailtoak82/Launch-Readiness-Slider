@@ -9,9 +9,11 @@ var Scales = [
 
 $("#circles-slider")
     .slider({
+        animate: true,
         max: Scales.length,
         min: 1,
-        value: 3
+        value: 3,
+        animate: "slow",
     })
 
     .slider("pips", {
