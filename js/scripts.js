@@ -1,9 +1,9 @@
 var Scales = [
-"<span>No</span><br/>(none of the actions have started)",
-"<span>To a limited extent</span><br/>(few of the actions have started)",
-"<span>Partially</span> <br/>(some of the actions have been completed)",
-"<span>Yes</span><br/>(most of the actions have been completed)",
-"<span>Yes, completely</span><br/> (all of the actions have been completed)"
+"<span>No</span><br/>None of the actions have started",
+"<span>To a limited extent</span><br/>Few of the actions have started",
+"<span>Partially</span> <br/>Some of the actions have been completed",
+"<span>Yes</span><br/>Most of the actions have been completed",
+"<span>Yes, completely</span><br/>All of the actions have been completed"
 ];
 
 
@@ -24,3 +24,14 @@ $("#circles-slider")
   .on("slidechange", function(e,ui) {
         $("#slider_Value").text( "You selected " + ui.value + ")");
     });
+
+/* Progress Bar script */
+
+jQuery(document).ready(function($){
+        $('.pie_progress').asPieProgress({
+            namespace: 'pie_progress'
+        });
+
+        $('#Commercial').asPieProgress('go',50);
+
+      });

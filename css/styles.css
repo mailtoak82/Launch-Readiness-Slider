@@ -4,9 +4,9 @@ body {
 
 #circles-slider.ui-slider {
   border-radius: 3px;
-    background: #9f9f9f;
+    background: #c2beb7;
     border: none;
-    height: 3px;
+    height: 2px;
     margin: 8em 7em 4em; }
 
 #circles-slider .ui-slider-handle {
@@ -15,7 +15,7 @@ body {
     width: 30px;
     top: -15px;
     margin-left: -14px;
-    border: 2px solid #026882; }
+    border: 2px solid #ffffff; }
 
 
 
@@ -40,12 +40,12 @@ body {
   }
 
   #circles-slider .ui-slider-pip .ui-slider-line {
-    width: 9px;
-    height: 9px;
+    width: 2px;
+    height: 20px;
     border-radius: 4px;
     margin-left: -2px;
     background: #7f7f7f;
-    top: -6px;
+    top: -12px;
 }
 
 
@@ -73,7 +73,7 @@ body {
     color: #434d5a; }
 
  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-      background: #026882;
+      background: #00b08a;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
 
@@ -83,8 +83,8 @@ body {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 0px solid #0073ea;
-	background: #026882;
+	border: 0px solid #00b08a;
+	background: #00b08a;
   outline: 0;
 
 }
@@ -93,7 +93,66 @@ body {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 0px solid #dddddd;
-	background: #026882;
+	background: #00b08a;
   outline: 0;
 
+}
+
+/* Progress Bar Styles */
+.pie_progress {
+        width: 140px;
+        margin: 10px auto;
+    }
+
+  @media all and (max-width: 768px) {
+        .pie_progress {
+            width: 15%;
+            max-width: 300px;
+        }
+    }
+
+#Commercial {
+  position: relative;
+  left: -400px;
+  top: -122px;
+}
+
+#Medical {
+  position: relative;
+  left: -200px;
+  top: -167px;
+}
+
+#Market_Access {
+    position: relative;
+    top: -331px;
+}
+
+#Patient_Finding {
+    position: relative;
+    left: 200px;
+    top: -492px;
+}
+
+#Patient_Support {
+    position: relative;
+    left: 400px;
+    top: -662px;
+}
+
+#Functions {
+  margin-top: 8em;
+}
+
+.function_icon {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    border-radius: 120px;
+    border: 2px solid #2e87d1;
+    top: 142px;
+    background-image: url("./../img/market_icon.png");
+    background-repeat: no-repeat;
+    background-position: 28px 29px;
 }
