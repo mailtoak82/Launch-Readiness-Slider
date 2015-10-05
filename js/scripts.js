@@ -29,9 +29,17 @@ $("#circles-slider")
 
 jQuery(document).ready(function($){
         $('.pie_progress').asPieProgress({
-            namespace: 'pie_progress'
+            namespace: 'pie_progress',
+            min: 0,
+            max: 100,
+            goal: 100,
+            size: 100,
+            step: 1,
+            speed: 50, // refresh speed
+            delay: 1000,
+            easing: 'ease'
         });
 
-        $('#Commercial').asPieProgress('go',50);
+        $('#Commercial').asPieProgress('go',100);
 
       });

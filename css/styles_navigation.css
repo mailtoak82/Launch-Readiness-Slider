@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+}
+
+.navigation {
+ width: 100%;
+ background-color: #5f7c96;
+ padding: 1px;
+ font-size: 12px;
+ padding: 17px 0px 17px 0px;
+ color: #ffffff;
+}
+
+.section-heading {
+    display: inline-block;
+    width: 8%;
+    height: 100%;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.tick {
+    display: inline-block;
+    padding: 19px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+
+.green-tick {
+  background: url("./../img/tick_green.svg");
+}
+
+.white-tick {
+  background: url("./../img/tick_white.svg");
+}
+
+.grey-tick {
+  background: url("./../img/tick_grey.svg");
+}
