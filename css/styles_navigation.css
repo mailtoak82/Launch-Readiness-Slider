@@ -14,7 +14,7 @@ body {
 
 .section-heading {
     display: inline-block;
-    width: 8%;
+    width: 7%;
     height: 100%;
     padding-left: 5px;
     vertical-align: middle;
@@ -38,4 +38,12 @@ body {
 
 .grey-tick {
   background: url("./../img/tick_grey.svg");
+}
+
+.chevron {
+    background: url("./../img/arrow-blue.png");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
 }
